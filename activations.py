@@ -11,7 +11,7 @@ def sigmoid(x):
         s: sigmoid(x) of same shape as input x
     """
 
-    s = x / (1 + np.exp(-x))
+    s = 1 / (1 + np.exp(-x))
     return s
 
 def sigmoid_gradient(x):
